@@ -27,8 +27,8 @@
 
     <!-- Additional bundles to be deployed by the MP -->
     <dependency>
-      <groupId>org.nuxeo.ecm.core</groupId>
-      <artifactId>nuxeo-core-storage-marklogic</artifactId>
+      <groupId>org.nuxeo.storage.marklogic</groupId>
+      <artifactId>nuxeo-storage-marklogic</artifactId>
     </dependency>
   </dependencies>
 
