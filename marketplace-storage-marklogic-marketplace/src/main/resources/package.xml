@@ -1,8 +1,8 @@
 <!-- See documentation at http://doc.nuxeo.com/x/HgIz -->
 <package type="addon" name="nuxeo-marklogic-connector" version="@VERSION@">
-  <title>Nuxeo MarkLogic connector</title>
+  <title>Marklogic Persistence Engine</title>
   <description>
-    <p>Put here an HTML description of your Nuxeo Package.</p>
+    <p>This plugin provides a Marklogic implementation of the repository interface of Nuxeo Platform. Using this plugin you'll be able to store all your documents (the metadata part) on a Marklogic store.</p>
   </description>
   <home-page>http://doc.nuxeo.com/</home-page>
   <vendor>Nuxeo</vendor>
