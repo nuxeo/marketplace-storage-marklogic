@@ -8,7 +8,7 @@
       <property name="key">${nuxeo.core.binarymanager_key}</property>
     </blobprovider>
   </extension>
-  <extension target="org.nuxeo.ecm.core.storage.marklogic.MarkLogicRepositoryService"
+  <extension target="org.nuxeo.ecm.storage.marklogic.MarkLogicRepositoryService"
          point="repository">
     <repository name="default" label="MarkLogic Repository">
       <host>${nuxeo.marklogic.host}</host>
