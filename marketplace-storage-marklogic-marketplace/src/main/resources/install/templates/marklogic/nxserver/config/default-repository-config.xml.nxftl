@@ -1,0 +1,23 @@
+<#escape x as x?xml>
+<?xml version="1.0"?>
+<component name="default-repository-config">
+  <extension target="org.nuxeo.ecm.core.blob.BlobManager" point="configuration">
+    <blobprovider name="default">
+      <class>${nuxeo.core.binarymanager}</class>
+      <property name="path">${repository.binary.store}</property>
+      <property name="key">${nuxeo.core.binarymanager_key}</property>
+    </blobprovider>
+  </extension>
+  <extension target="org.nuxeo.ecm.core.storage.marklogic.MarkLogicRepositoryService"
+         point="repository">
+    <repository name="default" label="MarkLogic Repository">
+      <host>${nuxeo.marklogic.host}</host>
+      <port>${nuxeo.marklogic.port}</port>
+      <dbname>${nuxeo.marklogic.dbname}</dbname>
+      <user>${nuxeo.marklogic.user}</user>
+      <password>${nuxeo.marklogic.password}</password>
+      <fulltext disabled="false" />
+    </repository>
+  </extension>
+</component>
+</#escape>
