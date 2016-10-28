@@ -22,7 +22,7 @@
       <dependency>
         <groupId>org.nuxeo.marketplace.storage.marklogic</groupId>
         <artifactId>marketplace-storage-marklogic-package</artifactId>
-        <version>1.0-SNAPSHOT</version>
+        <version>1.0.1-SNAPSHOT</version>
         <type>zip</type>
       </dependency>
     </dependencies>
