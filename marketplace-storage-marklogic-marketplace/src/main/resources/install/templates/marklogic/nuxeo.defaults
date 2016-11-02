@@ -3,7 +3,7 @@ marklogic.target=.
 
 nuxeo.dbnosql.type=marklogic
 nuxeo.marklogic.host=localhost
-nuxeo.marklogic.port=8000
+nuxeo.marklogic.port=8010
 nuxeo.marklogic.dbname=nuxeo
 nuxeo.marklogic.user=nuxeo
 nuxeo.marklogic.password=password

@@ -16,7 +16,13 @@
       <dbname>${nuxeo.marklogic.dbname}</dbname>
       <user>${nuxeo.marklogic.user}</user>
       <password>${nuxeo.marklogic.password}</password>
-      <fulltext disabled="false" />
+      <fulltext disabled="true" />
+      <cache enabled="true" maxSize="1000" concurrencyLevel="10" ttl="10" />
+      <clustering id="${repository.clustering.id}" enabled="${repository.clustering.enabled}">
+<#if "${repository.clustering.invalidation}" == "redis">
+        <invalidatorClass>org.nuxeo.ecm.core.redis.contribs.RedisDBSClusterInvalidator</invalidatorClass>
+</#if>
+      </clustering>
     </repository>
   </extension>
 </component>
