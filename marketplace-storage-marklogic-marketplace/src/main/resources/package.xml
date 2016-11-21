@@ -2,7 +2,7 @@
 <package type="addon" name="nuxeo-marklogic-connector" version="@VERSION@">
   <title>Marklogic Persistence Engine</title>
   <description>
-    <p>This plugin provides a Marklogic implementation of the repository interface of Nuxeo Platform. Using this plugin you'll be able to store all your documents (the metadata part) on a Marklogic store.</p>
+    <p>The Marklogic Connector allows to store documents (the hierarchy and the non-file properties) of the Nuxeo repository in the MarkLogic NoSQL database. The Nuxeo repository typically stores document properties on PostgreSQL, Oracle, SQL Server, MongoDB. Thanks to this connector you'll be able to use the MarkLogic database for same purpose.</p>
   </description>
   <home-page>http://doc.nuxeo.com/</home-page>
   <vendor>Nuxeo</vendor>
