@@ -8,7 +8,7 @@
       <property name="key">${nuxeo.core.binarymanager_key}</property>
     </blobprovider>
   </extension>
-  <extension target="org.nuxeo.ecm.storage.marklogic.MarkLogicRepositoryService"
+  <extension target="org.nuxeo.ecm.core.storage.marklogic.MarkLogicRepositoryService"
          point="repository">
     <repository name="default" label="MarkLogic Repository">
       <host>${nuxeo.marklogic.host}</host>
@@ -28,8 +28,12 @@
         <range-element-index type="string">ecm:name</range-element-index>
         <range-element-index type="string">ecm:primaryType</range-element-index>
         <range-element-index type="string">ecm:lifeCycleState</range-element-index>
+        <range-element-index type="string">dc:title</range-element-index>
+        <range-element-index type="dateTime">dc:created</range-element-index>
         <range-element-index type="dateTime">dc:modified</range-element-index>
         <range-element-index type="string">rend:renditionName</range-element-index>
+        <range-element-index type="dateTime">rend:modificationDate</range-element-index>
+        <range-element-index type="dateTime">rend:sourceModificationDate</range-element-index>
         <range-element-index type="string">collectionMember:collectionIds</range-element-index>
       </range-element-indexes>
       <cache enabled="true" maxSize="1000" concurrencyLevel="10" ttl="10" />
