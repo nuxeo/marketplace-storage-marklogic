@@ -7,3 +7,9 @@ nuxeo.marklogic.port=8010
 nuxeo.marklogic.dbname=nuxeo
 nuxeo.marklogic.user=nuxeo
 nuxeo.marklogic.password=password
+
+## Cache Configuration ##
+nuxeo.dbs.cache.enabled=true
+nuxeo.dbs.cache.maxSize=1000
+nuxeo.dbs.cache.concurrencyLevel=10
+nuxeo.dbs.cache.ttl=10
