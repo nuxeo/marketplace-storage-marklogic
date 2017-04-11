@@ -7,6 +7,7 @@ nuxeo.marklogic.port=8010
 nuxeo.marklogic.dbname=nuxeo
 nuxeo.marklogic.user=nuxeo
 nuxeo.marklogic.password=password
+nuxeo.marklogic.ssl=false
 
 ## Cache Configuration ##
 nuxeo.dbs.cache.enabled=true
