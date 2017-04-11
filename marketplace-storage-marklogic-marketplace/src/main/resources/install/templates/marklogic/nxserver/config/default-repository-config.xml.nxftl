@@ -16,6 +16,7 @@
       <dbname>${nuxeo.marklogic.dbname}</dbname>
       <user>${nuxeo.marklogic.user}</user>
       <password>${nuxeo.marklogic.password}</password>
+      <ssl enabled="${nuxeo.marklogic.ssl}" />
       <fulltext disabled="true" />
       <range-element-indexes>
         <range-element-index type="string">ecm:id</range-element-index>
