@@ -1,10 +1,10 @@
 <!-- See documentation at http://doc.nuxeo.com/x/HgIz -->
 <package type="addon" name="nuxeo-marklogic-connector" version="@VERSION@">
-  <title>Marklogic Persistence Engine</title>
+  <title>MarkLogic Persistence Engine</title>
   <description>
-    <p>The Marklogic Connector allows to store documents (the hierarchy and the non-file properties) of the Nuxeo repository in the MarkLogic NoSQL database. The Nuxeo repository typically stores document properties on PostgreSQL, Oracle, SQL Server, MongoDB. Thanks to this connector you'll be able to use the MarkLogic database for same purpose.</p>
+    <p>The MarkLogic Connector allows for storing documents (the hierarchy and the non-file properties) of the Nuxeo repository in the MarkLogic NoSQL database. The Nuxeo repository typically stores document properties on PostgreSQL, Oracle, SQL Server, MongoDB. Thanks to this connector you'll be able to use the MarkLogic database for the same purpose.</p>
   </description>
-  <home-page>http://doc.nuxeo.com/</home-page>
+  <home-page>https://doc.nuxeo.com/nxdoc/marklogic/</home-page>
   <vendor>Nuxeo</vendor>
   <installer restart="true" />
   <uninstaller restart="true" />
