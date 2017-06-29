@@ -46,6 +46,7 @@
         <invalidatorClass>org.nuxeo.ecm.core.redis.contribs.RedisDBSClusterInvalidator</invalidatorClass>
 </#if>
       </clustering>
+      <changeTokenEnabled>${nuxeo.changetoken.enabled}</changeTokenEnabled>
     </repository>
   </extension>
 </component>
