@@ -3,12 +3,12 @@
   <parent>
     <groupId>org.nuxeo.ecm.distribution</groupId>
     <artifactId>nuxeo-distribution</artifactId>
-    <version>10.2-SNAPSHOT</version>
+    <version>10.3-SNAPSHOT</version>
   </parent>
 
   <groupId>org.nuxeo.marketplace.storage.marklogic</groupId>
   <artifactId>marketplace-storage-marklogic-parent</artifactId>
-  <version>1.2.1-SNAPSHOT</version>
+  <version>1.2.2-SNAPSHOT</version>
   <name>Marketplace storage marklogic parent</name>
   <description>Nuxeo MarkLogic connector Marketplace package</description>
   <packaging>pom</packaging>
