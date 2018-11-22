@@ -2,6 +2,7 @@
 <package type="addon" name="nuxeo-marklogic-connector" version="@VERSION@">
   <title>MarkLogic Persistence Engine</title>
   <description>
+    <h4>MarkLogic Connector is deprecated since LTS 2019 / 10.10 and will be be removed in LTS 2020 / 11.10</h4>
     <p>The MarkLogic Connector allows for storing documents (the hierarchy and the non-file properties) of the Nuxeo repository in the MarkLogic NoSQL database. The Nuxeo repository typically stores document properties on PostgreSQL, Oracle, SQL Server, MongoDB. Thanks to this connector you'll be able to use the MarkLogic database for the same purpose.</p>
   </description>
   <home-page>https://doc.nuxeo.com/nxdoc/marklogic/</home-page>
